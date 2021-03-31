@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jvkstudy/public_html/home/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - export DEPLOYPATH=/home/jvkstudy/public_html/JVKwebpage/
+    - /bin/cp * $DEPLOYPATH
